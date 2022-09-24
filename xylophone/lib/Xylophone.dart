@@ -13,6 +13,7 @@ class _XyloPhoneState extends State<XyloPhone> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Xylophone'),
